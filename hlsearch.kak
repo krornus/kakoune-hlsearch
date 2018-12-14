@@ -5,4 +5,3 @@ define-command hlsearch-off %{
 define-command hlsearch-on %{
     add-highlighter global/hltoggle dynregex '%reg{/}' 0:white,rgb:222222+ub
 }
-
